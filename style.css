@@ -1,0 +1,101 @@
+body {
+  background-color: deepskyblue;
+  color: white;
+  font-family: helvitica;
+
+}
+.img{
+  background-image: url(images/sreems.jpg.jpg);
+   width: 500px;
+   height: 500px;
+   background-size: cover;
+}
+
+h1 {
+  color: deepskyblue;
+  font-family: font-family: 'Lobster', cursive;;
+  font-weight: 30;
+}
+
+h2 {
+  color: deepskyblue;
+  font-family: helvitica;
+  font-weight: 30;
+}
+
+a{text-decoration: none;
+  color: deepskyblue;
+}
+
+a:hover {color: yellow;
+}
+
+
+/*Custom design */
+
+
+
+.container{
+
+  width: 700px;
+  margin: 50px auto;
+
+}
+
+.card-black{
+  background-color: black;
+  padding: 40px;
+  box-shadow: 0px 10px 30px;
+  border-radius: 6px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.btn-darkblue{
+ background-color: deepskyblue;
+ color: white;
+padding: 10px 15px;
+border-radius: 4px;
+
+}
+
+.btn-darkblue:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.list-inline
+{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+
+  font-size: 50px;
+}
+
+.list-inline i:hover {
+  color: yellow;
+
+  font-size: 50px;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
